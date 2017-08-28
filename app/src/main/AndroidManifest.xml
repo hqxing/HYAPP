@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lenovo.hyapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:label="HY美妆"
+        android:theme="@style/AppTheme">
+        <!--广告页面-->
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--下拉菜单页面-->
+        <activity android:name=".FirstpageActivity">
+            <intent-filter>
+                <action android:name="example.lenovo.hyapp.FIRSTPAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!--首页-->
+        <activity android:name=".ShoppingActivity"></activity>
+        <!--购物车-->
+        <activity android:name=".ShoppingCarActivity"></activity>
+        <!--护肤-->
+        <activity android:name=".HufuActivity"></activity>
+        <!--彩妆-->
+        <activity android:name=".CaizhuangActivity"></activity>
+        <!--工具-->
+        <activity android:name=".GongjuActivity"></activity>
+        <!--香水-->
+        <activity android:name=".XiangshuiActivity"></activity>
+        <!--分类-->
+        <activity android:name=".FenleiActivity"></activity>
+        <!--商品内容页-->
+        <activity android:name=".ContentActivity"></activity>
+        <activity
+            android:name=".GoodsManageActivity"
+            android:label="@string/label" >
+        </activity>
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".Sign_upActivity"></activity>
+        <activity android:name=".PersonalActivity"></activity>
+    </application>
+
+</manifest>

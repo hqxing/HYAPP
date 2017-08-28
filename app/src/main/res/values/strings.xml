@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HY APP</string>
+    <!--activity_goods_manage.xml-->
+    <string name="label">管理商品</string>
+    <string name="manage_tv_goodname">请输入商品名称</string>
+    <string name="manage_tv_goodid">请输入商品ID</string>
+    <string name="manage_tv_goodsproduction">请输入商品简介</string>
+    <string name="manage_tv_price">请输入商品价格</string>
+    <string name="manage_tv_type">请输入商品类型</string>
+    <string name="btn_manage_addfoods">添加商品</string>
+
+</resources>

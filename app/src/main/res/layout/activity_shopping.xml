@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_shopping"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.hyapp.ShoppingActivity">
+
+    <ImageView
+        android:layout_width="358dp"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/title0"
+        android:id="@+id/iv_title"
+        android:background="#50474a"
+        android:layout_marginBottom="10dp"/>
+
+    <!--中间图片-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#fafafa"
+        android:layout_marginBottom="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="165dp"
+                android:layout_height="65dp"
+                android:id="@+id/iv_hufu"
+                android:background="#fafafa"
+                app:srcCompat="@drawable/hufu2"/>
+
+            <ImageView
+                android:layout_width="165dp"
+                android:layout_height="65dp"
+                android:id="@+id/iv_caizhuang"
+                android:background="#fafafa"
+                app:srcCompat="@drawable/caizhuang"
+                android:layout_marginLeft="20dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp">
+
+            <ImageView
+                android:layout_width="165dp"
+                android:layout_height="65dp"
+                android:id="@+id/iv_gongju"
+                android:background="#fafafa"
+                app:srcCompat="@drawable/gongju1"/>
+
+            <ImageView
+                android:layout_width="165dp"
+                android:layout_height="65dp"
+                android:id="@+id/iv_xiangshui"
+                android:background="#fafafa"
+                app:srcCompat="@drawable/xiangshui"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_home">
+
+    </ListView>
+</LinearLayout>
